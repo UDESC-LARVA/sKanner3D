@@ -1,0 +1,39 @@
+{% include header.html %}
+
+{% include splash.html %}
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+        <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        <div id="logo">
+            <a id="goUp" href="/" title="{{ site.title }}">{{ site.title }} </a>
+        </div>
+        <nav id="menu">
+            <ul id="menu-nav">
+                <li class="current"><a href="#post">Paper</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- End Header -->
+
+<div id="post" class="page">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+
+                <div class="title-page">
+                    <h2 class="title"> {{ page.title }} {% if page.subtitle %} :  </h2>
+                    <h3 class="subtitle"> {{ page.subtitle }}  </h3> {% else %} </h2>
+                    {% endif %}
+                </div>
+
+                {{ content }}
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

@@ -1,0 +1,38 @@
+# Site settings
+title: "sKanner3D"
+description: "Captura corporal automática e enriquecida"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://gabrielcaixeta.github.io" # the base hostname & protocol for your site
+
+# User settings
+username: sKanner3D
+user_description: Um projeto do LARVA (LAboratory on Research on Virtual Application)
+user_title: caixetovisk
+email: andre.silva at udesc dot br
+email2: marcelo.hounsell at udesc dot br
+github_username:  https://github.com/gabrielcaixeta
+disqus_username: lorem_ipsum
+gplus_username:  lorem_ipsum
+twitter_username: lorem_ipsum
+
+
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'presentations/plugin/mathjax']
+paginate: 4
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+# markdown: redcarpet
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+highlighter: rouge
+gems: ["jekyll-paginate"]
+
+collections:
+ wiki:
+  output: true
+  permalink: /wiki/:path/
+ paper:
+  output: true
+  permalink: /paper/:path/
