@@ -21,7 +21,7 @@ layout: main_page
         {% for post in site.posts limit: 2 %}
             <!-- Start Blog post -->
             <div class="span6">
-                <h3 class="spec"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <h3 class="spec"><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h3>
                 <div class="row">
                     <div class="span3">{{ post.date | date_to_long_string }}</div>
                 </div>
@@ -44,7 +44,7 @@ layout: main_page
         <div class="row">
         {% for post in site.posts %}
             <div class="span6">
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <h3><a href="{{ post.url | prepend:site.baseurl  }}">{{ post.title }}</a></h3>
             </div>
         {% endfor %}
         </div>
@@ -71,7 +71,7 @@ layout: main_page
         {% for wiki in site.wiki %}
             <!-- Start Wiki Page -->
             <div class="span6">
-                <h3 class="spec"><a href="{{ wiki.url }}">{{ wiki.title }}</a> ( {{ wiki.language }} language ) </h3>
+                <h3 class="spec"><a href="{{ wiki.url | prepend:site.baseurl  }}">{{ wiki.title }}</a> ( {{ wiki.language }} language ) </h3>
             </div>
             <!-- End Wiki Page -->
         {% endfor %}
@@ -100,7 +100,7 @@ layout: main_page
         {% for paper in site.paper %}
             <!-- Start Wiki Page -->
             <div class="span6">
-                <h3 class="spec"><a href="{{ paper.url }}">{{ paper.title }}: {{ paper.subtitle }}</a> ( {{ paper.language }} language ) </h3>
+                <h3 class="spec"><a href="{{ paper.url | prepend:site.baseurl  }}">{{ paper.title }}: {{ paper.subtitle }}</a> ( {{ paper.language }} language ) </h3>
             </div>
             <!-- End Wiki Page -->
         {% endfor %}
