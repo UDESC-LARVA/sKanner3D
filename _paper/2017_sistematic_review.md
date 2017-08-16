@@ -13,7 +13,7 @@ language: Portuguese
 
 ## Info Paper
 
-Download this paper in: [SlatJogos](http://www.slatjogos.ufsc.br/article/view/18.html)
+Download this paper in: [SlatJogos](http://www.slatjogos.ufsc.br/article/view/18.html){:target="_blank"}
 
 How to cite this paper:
 
