@@ -1,13 +1,13 @@
 # Site settings
 title: "sKanner3D"
 description: "Captura corporal automática e enriquecida"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gabrielcaixeta.github.io" # the base hostname & protocol for your site
+baseurl: "/sKanner3D" # the subpath of your site, e.g. /blog
+url: "https://udesc-larva.github.io" # the base hostname & protocol for your site
 
 # User settings
 username: sKanner3D
 user_description: Um projeto do LARVA (LAboratory on Research on Virtual Application)
-user_title: caixetovisk
+user_title: sKanner3D
 email: andre.silva at udesc dot br
 email2: marcelo.hounsell at udesc dot br
 github_username:  https://github.com/gabrielcaixeta
