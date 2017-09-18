@@ -1,6 +1,6 @@
 ---
-title: Uma revisão da literatura sobre a deformação da forma do corpo
-subtitle: em busca pelo corpo perfeito
+title: Uma revisão da literatura sobre a deformação do corpo
+subtitle: em busca do corpo perfeito
 layout: paper
 tags: Humanos Virtuais, deformação, revisão
 language: Portuguese
@@ -20,7 +20,7 @@ How to cite this paper:
 ```bash
  @inproceedings{silva2016umarevisao,
     author = {Silva, G. C. and Balatka, M. V. L. and Silva, A. T. and Hunsell, M. S.},
-    title = {Uma revisão da literatura sobre a deformação da forma do corpo: em busca pelo corpo perfeito},
+    title = {Uma revisão da literatura sobre a deformação do corpo: em busca do corpo perfeito},
     booktitle = {Anais do XVI Simpósio Brasileiro de Jogos e Entretenimento Digital},
     year = {2017},
     publisher = {Sociedade Brasileira de Computação},
