@@ -17,7 +17,7 @@ Download this paper in: [Sbgames 2017](#){:target="_blank" style="pointer-events
 How to cite this paper:
 
 ```bash
- @inproceedings{silva2016umarevisao,
+ @inproceedings{balatka2017capturacompleta,
     author = {Balatka, M. V. L. and Silva, M. R. F. da and Silva, G. C. and Hunsell, M. S. and Silva, A. T.},
     title = {Captura Completa de Avatares com uma única câmera RGBD},
     booktitle = {Anais do XVI Simpósio Brasileiro de Jogos e Entretenimento Digital},
