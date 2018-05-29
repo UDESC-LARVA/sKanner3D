@@ -12,7 +12,7 @@ language: Portuguese
 
 ## Info Paper
 
-Download this paper in: [Sbgames 2017](#){:target="_blank" style="pointer-events: none;"}
+Download this paper in: [Sbgames 2017](https://sbgames.org/sbgames2017/papers/ArtesDesignFull/174681.pdf){:target="_blank" style="pointer-events: none;"}
 
 How to cite this paper:
 
