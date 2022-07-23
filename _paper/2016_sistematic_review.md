@@ -17,7 +17,7 @@ Download this paper in: [SlatJogos](http://www.slatjogos.ufsc.br/article/view/18
 
 How to cite this paper:
 
-```bash
+```bibtex
  @inproceedings{silva2016virtual,
     author = {Silva, G. C. and Tavares, M. S. and SILVA, A. T. and Hunsell, M. S.},
     title = {Virtual Human Deformation: A Systematic Literature Mapping},
