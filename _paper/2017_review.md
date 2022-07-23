@@ -17,7 +17,7 @@ Download this paper in: [Sbgames 2017](https://sbgames.org/sbgames2017/papers/Ar
 
 How to cite this paper:
 
-```bash
+```bibtex
  @inproceedings{silva2017umarevisao,
     author = {Silva, G. C. and Balatka, M. V. L. and Silva, A. T. and Hunsell, M. S.},
     title = {Uma revisão da literatura sobre a deformação do corpo: em busca do corpo perfeito},

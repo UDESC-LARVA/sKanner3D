@@ -3,10 +3,8 @@ layout: main_page
 ---
 
 <!-- Blog Section -->
-<div id="blog" class="page-alternate">
+<!-- <div id="blog" class="page-alternate">
     <div class="container">
-
-        <!-- Title Page -->
         <div class="row">
             <div class="span12">
                 <div class="title-page">
@@ -15,11 +13,8 @@ layout: main_page
                 </div>
             </div>
         </div>
-
-        <!-- Start Blog post Section -->
         <div class="row">
-        {% for post in site.posts limit: 2 %}
-            <!-- Start Blog post -->
+            {% for post in site.posts limit: 2 %}
             <div class="span6">
                 <h3 class="spec"><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h3>
                 <div class="row">
@@ -27,14 +22,9 @@ layout: main_page
                 </div>
                 <p>{{ post.excerpt }}</p>
             </div>
-            <!-- End Blog post -->
-        {% endfor %}
+            {% endfor %}
         </div>
-        <!-- End Blog post Section -->
-
-        <hr/>
-
-        <!-- Title Page -->
+        <hr />
         <div class="row">
             <div class="span12">
                 <h2>All Posts</h2>
@@ -42,21 +32,19 @@ layout: main_page
         </div>
 
         <div class="row">
-        {% for post in site.posts %}
+            {% for post in site.posts %}
             <div class="span6">
                 <h3><a href="{{ post.url | prepend:site.baseurl  }}">{{ post.title }}</a></h3>
             </div>
-        {% endfor %}
+            {% endfor %}
         </div>
     </div>
-</div>
+</div> -->
 
 
 <!-- Wiki Section -->
-<div id="wiki" class="page">
+<!-- <div id="wiki" class="page">
     <div class="container">
-
-        <!-- Title Page -->
         <div class="row">
             <div class="span12">
                 <div class="title-page">
@@ -66,22 +54,19 @@ layout: main_page
             </div>
         </div>
 
-        <!-- Start Wiki Section -->
         <div class="row">
-        {% for wiki in site.wiki %}
-            <!-- Start Wiki Page -->
+            {% for wiki in site.wiki %}
             <div class="span6">
-                <h3 class="spec"><a href="{{ wiki.url | prepend:site.baseurl  }}">{{ wiki.title }}</a> ( {{ wiki.language }} language ) </h3>
+                <h3 class="spec"><a href="{{ wiki.url | prepend:site.baseurl  }}">{{ wiki.title }}</a> ( {{
+                    wiki.language }} language ) </h3>
             </div>
-            <!-- End Wiki Page -->
-        {% endfor %}
+            {% endfor %}
         </div>
-    <!-- End Wiki Section -->
     </div>
-</div>
- 
- 
- <!-- Paper Section -->
+</div> -->
+
+
+<!-- Paper Section -->
 <div id="paper" class="page">
     <div class="container">
 
@@ -97,14 +82,15 @@ layout: main_page
 
         <!-- Start Wiki Section -->
         <div class="row">
-        {% for paper in site.paper %}
+            {% for paper in site.paper %}
             <!-- Start Wiki Page -->
             <div class="span6">
-                <h3 class="spec"><a href="{{ paper.url | prepend:site.baseurl  }}">{{ paper.title }}: {{ paper.subtitle }}</a> ( {{ paper.language }} language ) </h3>
+                <h3 class="spec"><a href="{{ paper.url | prepend:site.baseurl  }}">{{ paper.title }}: {{ paper.subtitle
+                        }}</a> ( {{ paper.language }} language ) </h3>
             </div>
             <!-- End Wiki Page -->
-        {% endfor %}
+            {% endfor %}
         </div>
- <!-- End Paper Section -->
- </div>
+        <!-- End Paper Section -->
+    </div>
 </div>
